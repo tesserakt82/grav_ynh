@@ -93,7 +93,7 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Upgrading dependencies..." --time --weight=1
 
-ynh_install_app_dependencies php7.0-zip
+ynh_install_app_dependencies php7.4-zip
 
 #=================================================
 # CREATE DEDICATED USER
